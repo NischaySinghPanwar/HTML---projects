@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#img1 {
+    background-image: url(https://imgs.search.brave.com/iQlHE_HN_OyCnED7RIJZ6AC4IqB6g-K6pX57XRxjPLk/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93d3cu/ZnJlZWNvZGVjYW1w/Lm9yZy9uZXdzL2Nv/bnRlbnQvaW1hZ2Vz/L3NpemUvdzIwMDAv/MjAyMi8wOS9qb25h/dGFuLXBpZS0zbDNS/d1FkSFJIZy11bnNw/bGFzaC5qcGc);
+    height: 783px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#heading_1 {
+    background-color: rgb(181, 47, 47);
+    padding: 24px;
+    font-size: 30px;
+
+
+    display: inline;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+#para_1 {
+    background-color: black;
+    color: beige;
+    border: 2px solid black;
+    position: relative;
+    top: 628px;
+    height: 4cm;
+
+
+}
+
+#img_2 {
+    background-image: url(https://imgs.search.brave.com/TnGJ2nZOaj6LeBRU6Zh56S07hrsGe7YkFq-24yqXIqw/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9jZG4u/cGl4YWJheS5jb20v/cGhvdG8vMjAxNy8w/MS8wNC8yMC8xNS93/ZWItZGVzaWduLTE5/NTMxMjlfNjQwLmpw/Zw);
+    height: 783px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#heading_2 {
+    background-color: rgb(181, 47, 47);
+    padding: 24px;
+    font-size: 30px;
+
+
+    display: inline;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#para_2{
+    background-color: black;
+    color: beige;
+    border: 2px solid black;
+    position: relative;
+    top: 628px;
+    height: 4cm;
+}
+#img_3{
+    background-image: url(https://imgs.search.brave.com/uZcCek9pwMt6IC7o8x9M2-RV3Fekzx0RfHLUA5q5kGI/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93d3cu/c2xhenplci5jb20v/c3RhdGljL2ltYWdl/cy9ob21lLXBhZ2Uv/dmlzdWFsaXplLWdy/YXBoaWNzLWFmdGVy/LnBuZw);
+    height: 783px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+    background-attachment: fixed;
+}
+#heading_3 {
+    background-color: rgb(181, 47, 47);
+    padding: 24px;
+    font-size: 30px;
+
+
+    display: inline;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#para_3{
+    background-color: black;
+    color: beige;
+    border: 2px solid black;
+    position: relative;
+    top: 628px;
+    height: 4cm;
+}
+#img_4{
+    background-image: url(https://imgs.search.brave.com/T1okyJ-oIpfp9MVzUEgPe3Vtltq2sDZTTN4lCswk5c0/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9yZW5k/ZXIuZmluZWFydGFt/ZXJpY2EuY29tL2lt/YWdlcy9yZW5kZXJl/ZC9zZWFyY2gvcHJp/bnQvMTIvOC9icmVh/ay9pbWFnZXMtbWVk/aXVtLTUvZ3JlYXQt/c21va3ktbW91bnRh/aW5zLW5hdGlvbmFs/LXBhcmstbmMtd2Vz/dGVybi1ub3J0aC1j/YXJvbGluYS1kYXZl/LWFsbGVuLmpwZw);
+    height: 783px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+    background-attachment: fixed;
+}
+#heading_4 {
+    background-color: rgb(181, 47, 47);
+    padding: 24px;
+    font-size: 30px;
+
+
+    display: inline;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#para_4{
+    background-color: black;
+    color: beige;
+    border: 2px solid black;
+    position: relative;
+    top: 628px;
+    height: 4cm;
+}
+#img_5{
+    background-image: url(https://imgs.search.brave.com/l97dlwjy5Ahz1ZCpuKSkFsr0PZGIGjIIrpFnLiM6tPI/rs:fit:500:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzAxLzc1Lzk3LzM5/LzM2MF9GXzE3NTk3/MzkzMF9GT2ZRTTd6/RlhzVnVGTGx6MUg0/UHJVNFlHWlgxNG9G/QS5qcGc);
+    height: 783px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+    background-attachment: fixed;
+}
+#heading_5{
+    background-color: rgb(181, 47, 47);
+    padding: 24px;
+    font-size: 30px;
+
+
+    display: inline;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#para_5{
+    background-color: black;
+    color: beige;
+    border: 2px solid black;
+    position: relative;
+    top: 628px;
+    height: 4cm;
+}
