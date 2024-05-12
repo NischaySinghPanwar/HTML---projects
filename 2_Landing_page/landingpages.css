@@ -1,145 +1,117 @@
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
-
-}
-body{
-    overflow-x:hidden ;
-    
 }
 
-header a {
+header {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#COMPANY_NAME {
+    display: inline;
+}
+
+#company_1 {
+    font-size: 40px;
+
+}
+
+#company_2 {
+    position: relative;
+    left: -7px;
+    bottom: 7px;
+    font-weight: 700;
+}
+
+#company_3 {
+    font-size: 33px;
+    position: relative;
+    right: 31px;
+}
+
+#red_button a {
+    display: inline;
     background-color: red;
+    padding: 6px;
     text-decoration: none;
     color: white;
-    padding: 7px 5px 7px 5px;
-    position: relative;
-    float: right;
-    bottom: 95px;
-    right: 150px;
 }
 
-header #title_1 {
+#red_button {
     position: relative;
-    bottom: 1px;
-    left: 183px;
-    font-size: 42px;
+    top: 15px;
 }
 
-header h3 {
-    position: relative;
-    bottom: 34px;
-    left: 272px;
-}
-header #dot{
-    position: relative;
-    left: 285px;
-    bottom: 60px;;
-}
 #img_1 {
-    height: 782px;
-    position: relative;
-    bottom: 233px;
-}
-#img_1 img{
-height: 106%;
-position: absolute;
-left: 50%;
-top: 50%;
-transform: translate(-50%,-50%);
-clip-path: inset(25% 0% 32% 0%);
-}
-section p{
-    position: relative;
-    bottom: 1PX;
+    height: 300px;
 }
 
-#tab_over_imag_1{
-    height: 195px;
-    width: 350px;
+section {
     position: relative;
-    left: 276px;
-    bottom: 19.7cm;
-    background-color: rgba(230, 241, 250,.8);
+}
+
+#img_1 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+#tab_over_text {
+    z-index: 2;
+    height: 170px;
+    width: 332px;
     text-align: center;
-    padding: 11px;
+    padding-top: 12px;
+    position: absolute;
+    left: 304px;
+    top: 64px;
+    background-color: rgba(233, 233, 233, .8);
 
 }
-#tab_over_imag_1 h2{
-    font-size: 28px;
-    padding: 3px;
-}
-#tab_over_imag_1 a{
 
+#tab_over_text a {
+    text-decoration: none;
+    color: white;
     background-color: red;
-    text-decoration: none;
-    color: white;
-    width: 194px;
+    padding: 6px;
+    top: 11px;
+    position: relative;
+    width: 170px;
     display: block;
+    left: 75px;
+}
+
+#reviews {
+    height: 202px;
     position: relative;
-    left: 60px;
-    top: 10px;
-    padding: 5px;
+
 }
-#code{
-    color: red;
+
+#review_1 {
+
+    height: 115px;
+    width: 220px;
+    position: absolute;
+    left: 342px;
+    top: 22px;
 }
-.tab_text{
-    padding: 2.5px;
-    /* font-weight: 300; */
+
+#review_2 {
+
+    height: 134px;
+    width: 292px;
+    top: 22px;
+    position: absolute;
+    left: 609px;
 }
- /* the rating  */
-#rating_1{
-    /* border: 1px solid black; */
-    height:112px ;
-    width: 224px;
-    bottom: 16cm;
-    position: relative;
-    left: 263px;
+
+#review_3 {}
+#overAll_rating {    position: absolute;
+    left: 607px;
+    top: 185px;
     
-}
-#rating_2{
-    /* border: 1px solid black; */
-    height: 130px;
-    width: 300px;
-    bottom: 19cm;
-    position: relative;
-    left: 15cm;
-
-}
-#rating_3{
-    /* border: 1px solid black; */
-    height: 95px;
-    width: 233px;
-    position: relative;
-    float: right;
-    bottom: 22.5cm;
-    right: 8cm;
-
-}
-h4{
-    color: gray;
-    padding: 5px;
-}
-#verified_line
-{
-    position: relative;
-    left: 15cm;
-    bottom: 17.5cm;
-}
-#help_button{
-    order: 1px solid black;
-    height: 35px;
-    width: 85px;
-    background-color: black;
-    border-radius: 18px;
-
-}
-#help_button a{
-    color: white;
-    text-decoration: none;
-    bottom: -7px;
-    left: 40px;
-    position: relative;
 }
