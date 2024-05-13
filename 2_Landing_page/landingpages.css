@@ -109,9 +109,142 @@ section {
     left: 609px;
 }
 
-#review_3 {}
-#overAll_rating {    position: absolute;
+#review_3 {
+
+    height: 103px;
+    width: 197px;
+    position: absolute;
+    left: 25.5cm;
+    top: 22px;
+}
+
+#overAll_rating {
+    position: absolute;
     left: 607px;
     top: 185px;
-    
+
+}
+
+#help_button {
+    border: 1px solid black;
+    height: 27px;
+    width: 78px;
+    border-radius: 17px;
+    background-color: black;
+    position: absolute;
+    left: 37cm;
+    top: 122px;
+}
+
+#help_button a {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    left: 30px;
+    top: 2px;
+}
+
+#three_images {
+    height: 200px;
+    position: relative;
+    top: 6vh;
+}
+
+#clock_container {
+    height: 115px;
+    width: 177px;
+    text-align: center;
+    position: absolute;
+    left: 10cm;
+    top: 20px;
+}
+
+#clock_container p {
+    padding-top: 15px;
+    color: gray;
+}
+
+#logo_img {
+    position: absolute;
+    left: 18cm;
+    top: 11px;
+}
+
+#logo_img div {
+    height: 75px;
+    width: 156px;
+}
+
+#logo_img div img {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+#logo_img P {
+
+    height: 40px;
+    width: 12vw;
+    text-align: center;
+    color: gray;
+    position: relative;
+    right: 16px;
+    top: 13px;
+}
+
+#smile_emoji {
+    position: absolute;
+    left: 26cm;
+    top: 20px;
+
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
+
+#smile_emoji p {
+    color: gray;
+    padding-top: 23px;
+}
+
+#container_of_promotion {
+
+    height: 400px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    column-gap: 2px;
+
+}
+
+#promotion_text {
+
+    height: 248px;
+    width: 547px;
+    text-align: center;
+    padding-top: 64px;
+    padding-left: 58px;
+}
+
+#promotion_text p {
+    padding-top: 22px;
+}
+
+#container_of_promotion div {
+    padding-top: 64px;
+}
+
+#promotion_text a {
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding-top: 7px;
+    height: 54px;
+    display: block;
+    width: 180px;
+    top: 297px;
+    position: absolute;
+    left: 22.3cm;
+
 }
