@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    body {
+            background-color: #232323;
+            color: white;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        #container {
+            background: #333;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            text-align: center;
+        }
+        h1, p {
+            margin-bottom: 20px;
+        }
+        input {
+            background: #ded5d5;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            width: 80%;
+            font-size: 16px;
+        }
+        #button {
+            padding: 10px 20px;
+            font-size: 20px;
+            border-radius: 15px;
+            background-color: #61bd64;
+            border: none;
+            cursor: pointer;
+            color: white;
+            transition: background-color 0.3s ease;
+        }
+        #button:hover {
+            background-color: #4a9e51;
+        }
+        .win {
+            color: white;
+            padding: 20px;
+            background-color: rgba(0, 255, 255, 0.212);
+            border-radius: 10px;
+            margin-top: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        #win_2 {
+            text-align: center;
+        }
+        #section_2 {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+  </style>
+  <body>
+    <div id="container">
+      <h1 style="color: white;">Guess a number</h1>
+      <p style="color: white;">enter a number between 1-100</p>
+      <div>
+        <input id="input" type="text" />
+      </div>
+      <div> <span id="button">Submit</span></div>
+      <div>
+        <p style="color: white;">Number of attempts remaning : <span id="attempts" style="color: white;">10</span></p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
